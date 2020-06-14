@@ -1,6 +1,6 @@
 import os
 from openpyxl import Workbook, load_workbook
-from TimeManger import MyStyle
+from TimeManager import MyStyle
 
 
 def generate_week_recoding_excel(excel_path):

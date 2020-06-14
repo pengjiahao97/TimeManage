@@ -1,1 +1,9 @@
-graft TimeManager
+include *.in
+include *.ini
+include *.rst
+include *.txt
+include LICENSE
+
+
+global-exclude __pycache__ *.py[cod]
+global-exclude *.so *.dylib
